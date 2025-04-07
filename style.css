@@ -1,0 +1,16 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+#canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10; /* 確保畫布在最上層 */
+  pointer-events: none; /* 允許鼠標事件穿透畫布 */
+}
